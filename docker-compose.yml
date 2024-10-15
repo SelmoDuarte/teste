@@ -31,7 +31,7 @@ services:
     restart: always
 #   Configurações de ambiente
     environment:
-      DOMAINS: 'dominio.do.servidor -> http://php-server:80'
+      DOMAINS: 'minasbrasilia.app.br -> http://php-server:80'
 #     Definindo o ambiente como produção
       STAGE: 'production'
 #     Impedindo a renovação ao subir o container

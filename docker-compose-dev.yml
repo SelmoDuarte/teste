@@ -31,7 +31,7 @@ services:
     restart: always
 #   Configurações de ambiente
     environment:
-      DOMAINS: 'teste.local -> http://php-server:80'
+      DOMAINS: 'clubweb2.local -> http://php-server:80'
 #     Definindo o ambiente como local
       STAGE: 'local'
 #     Impedindo a renovação ao subir o container
